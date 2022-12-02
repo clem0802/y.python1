@@ -17,3 +17,6 @@ np_height = np.array(height) #converting list into array
 np_weight = np.array(weight) #converting list into array
 bmi = np_weight/np_height **2
 print(bmi) # [21.71806609 20.90419501 17.6366843  27.46481071]
+bmi[1]  # 20.904195011337873
+bmi > 23  # array([False, False, False,  True])
+bmi[bmi > 23]  # array([27.46481071])
