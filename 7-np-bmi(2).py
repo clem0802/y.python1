@@ -28,6 +28,8 @@ np_weight_kg = np.array(weight_lb) * 0.453592
 bmi = np_weight_kg / np_height_m **2
 print(bmi)  
 # [23.11037639 27.60406069 28.48080465 26.22038745 22.38342142 17.49860637 24.99800911 27.96971839]
+
+# pic n° 23(NP-6-exo4)
 light = bmi < 21
 print(light)  # [False False False False False True False False]
 print(bmi[light])  # [17.49860637]
