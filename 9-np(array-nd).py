@@ -11,5 +11,3 @@ type(np_height)  # <class 'numpy.ndarray'>
 type(np_weight)  # <class 'numpy.ndarray'>
 
 
-#--------------------------------------
-# pic n° 24(2-NP.array-2d.shape)
